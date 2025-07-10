@@ -1,7 +1,3 @@
-0# Instala-o-Fedora
-
-set -e
-
 ### "==== Atualizando sistema ===="
 sudo dnf update -y
 
