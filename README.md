@@ -1,4 +1,4 @@
-# Instala-o-Fedora
+0# Instala-o-Fedora
 
 #!/bin/bash
 
@@ -29,7 +29,7 @@ sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=Pack
 sudo dnf groupupdate sound-and-video -y
 sudo dnf install -y amrnb amrwb faad2 flac gpac-libs libde265 libfc14audiodecoder mencoder x264 x265 ffmpegthumbnailer
 
-echo "==== Instalando fontes da Microsoft ===="
+echo "==== Instalando fontes da Microsoft ====\n"
 sudo dnf install -y curl cabextract xorg-x11-font-utils fontconfig
 sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 echo "==== Instalando compactadores e utilitários ===="
