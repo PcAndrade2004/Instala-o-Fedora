@@ -1,13 +1,11 @@
 0# Instala-o-Fedora
 
-#!/bin/bash
-
 set -e
 
-echo "==== Atualizando sistema ===="
+### "==== Atualizando sistema ===="
 sudo dnf update -y
 
-echo "==== Configurando nome da máquina ===="
+### "==== Configurando nome da máquina ===="
 sudo hostnamectl set-hostname "minilboz"
 
 ###  "==== Instalando GNOME Tweaks e extensão ===="
@@ -97,9 +95,6 @@ flatpak install -y flathub com.rtosta.zapzap
 flatpak install -y flathub com.todoist.Todoist
 flatpak install -y flathub io.github.pwr_solaar.solaar
 flatpak install -y flathub io.github.brunofin.Cohesion
-
-### "==== Script concluído com sucesso! ===="
-
 
 ### "==== Instalando VS Code (via Flatpak) ===="
 flatpak install -y flathub com.visualstudio.code
