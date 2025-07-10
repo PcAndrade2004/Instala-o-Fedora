@@ -10,7 +10,7 @@ sudo dnf update -y
 echo "==== Configurando nome da máquina ===="
 sudo hostnamectl set-hostname "minilboz"
 
-echo "==== Instalando GNOME Tweaks e extensão ===="
+##  "==== Instalando GNOME Tweaks e extensão ===="
 sudo dnf install -y gnome-tweaks gnome-extensions-app
 
 echo "==== Ativando RPM Fusion ===="
